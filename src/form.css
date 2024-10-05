@@ -1,0 +1,139 @@
+body {
+    margin :0;
+    padding: 0;
+    height:100%;
+    background-color: #e87d69;
+    
+    background-position: center;
+    background-size:100vw 100vh;
+    background-repeat: no-repeat;
+
+}
+
+.top_img {
+    position: absolute;
+     /* Aligns the image to the top of the page */
+    right: 0; /* Aligns the image to the right of the page */
+    margin: 10px; /* Optional: Adds a little space between the image and the edges */
+    border-radius: 3%;
+    z-index: 100; /* Ensure it stays above other content */
+    width: 260px; /* Optional: Set a specific width if necessary */
+    height: 260px; /* Maintain aspect ratio */
+}
+
+.bottom_img {
+    position: absolute;
+     /* Aligns the image to the top of the page */
+    left: 0; /* Aligns the image to the right of the page */
+    margin: 10px; /* Optional: Adds a little space between the image and the edges */
+    border-radius: 3%;
+    z-index: 100; /* Ensure it stays above other content */
+    width: 260px; /* Optional: Set a specific width if necessary */
+    height: 260px; /* Maintain aspect ratio */
+}
+
+
+.container {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    color: white;
+    font-weight: bold;
+}
+
+.form {
+    background-color: white;
+    width:700px;
+    height: 530px;
+    border: black solid 3px;
+    border-radius: 3%;
+    display: flex;
+    justify-content: flex-start;
+    
+    flex-direction: column;
+}
+
+.lbl {
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.ip {
+    background-color: transparent;
+    border: none;
+    border-bottom: black solid 2px;
+    outline: none;
+    width:650px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.event {
+    margin-top: 10px;
+    margin-left: 20px;
+    width:300px;
+    height: 5000px;
+    border: black solid 1px;
+    font-weight: bold;
+}
+
+.buttons {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.buttons label {
+    font-weight: bold;
+    margin-left: 5px;
+    
+}
+
+.buttons input {
+    margin-left: 10px;
+}
+
+.form button {
+    background-color: #e87d69;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 500px;
+    width: 175px;
+    height: 90px;
+    font-weight: bold;
+}
+
+.tp {
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: bold 3px;
+
+}
+
+.bp {
+    font-size: 34px;
+    font-weight: bold ;
+}
+
+.qrcode {
+    width: 350px;
+    height: 350px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
